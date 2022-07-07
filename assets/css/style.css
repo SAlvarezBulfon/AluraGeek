@@ -37,7 +37,9 @@ li{
 main{
     background-color: var(--preto05) ;
 }
-
+.col-6{
+    margin-bottom: 12px;
+}
 /* REUTILIZABLES */
 .btn-primary{
     border-radius: 0.1rem;
