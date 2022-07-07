@@ -1,0 +1,26 @@
+:root{
+    --gris: #A2A2A2;
+    --preto30: #C8C8C8;
+    --preto: #464646;
+    --azul: #2A7AE4;
+    --blanco: #FFF;
+    --preto05: #F5F5F5;
+    --footer: #EAF2FD;
+}
+
+.producto{
+    padding: 4rem 0 ;
+}
+
+.producto-imagen .img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.producto-info .nombre-producto{
+    font-weight: bold;
+}
+
+.descripcion-producto{
+    flex-direction: column;
+}

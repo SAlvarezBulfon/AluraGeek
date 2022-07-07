@@ -1,0 +1,57 @@
+:root{
+    --gris: #A2A2A2;
+    --preto30: #C8C8C8;
+    --preto: #464646;
+    --azul: #2A7AE4;
+    --blanco: #FFF;
+    --preto05: #F5F5F5;
+    --footer: #EAF2FD;
+}
+
+/* Login */
+
+.login-section{
+    padding: 8rem 0;
+    background-color:var(--preto05);
+}
+.form-inicio{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.login-title{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 0 1.2rem;
+    font-weight: bold;
+}
+.login-info{
+    width: 40%;
+}
+.inicio-input, .inicio-input input{
+    width: 100%;
+}
+.inicio-input input{
+    color: var(--gris);
+    padding: 0.4rem 0;
+}
+.titulo-agregar{
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
+}
+
+.login .btn-primary{
+    padding: 0.9rem 0;
+}
+@media (max-width: 900px){
+    .login-info{
+        width: 70%;
+    }
+}
+@media (max-width: 500px){
+    .login-info{
+        width: 100%;
+    }
+}

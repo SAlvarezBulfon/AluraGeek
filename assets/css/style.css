@@ -34,6 +34,10 @@ a{
 li{
     list-style: none;
 }
+main{
+    background-color: var(--preto05) ;
+}
+
 /* REUTILIZABLES */
 .btn-primary{
     border-radius: 0.1rem;
@@ -41,6 +45,9 @@ li{
     font-size: 1.2rem;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+.section-ult{
+    padding-bottom: 4rem;
 }
 .section{
     margin-bottom: 4rem;
@@ -51,6 +58,7 @@ nav .search{
     border-radius: 1.25rem;
 }
 nav .buscador{
+    padding-left: 1.5rem;
     border-radius: 1.25rem;
     border:none;
     font-size: 0.8rem;
@@ -63,6 +71,7 @@ nav .buscador:focus{
 nav .search-icon{
     border:none;
     color:var(--gris);
+    padding-right: 1.5rem;
 }
 
 nav .search-chiquito{
@@ -140,14 +149,16 @@ nav .search-chiquito{
     align-items: center;
     justify-content: center;
 }
-.section .img-fluid{
+section .img-fluid{
     margin-bottom: 0.5rem;
     border-radius: 0.2rem;
 }
 
 
 /* FOOTER */
-
+.footer h4{
+    margin:0;
+}
 .footer-info{
     background-color: var(--footer);
     padding: 4rem 0;
@@ -177,15 +188,19 @@ label{
     margin-bottom: 1rem;
     padding:0.75rem;
     background-color: var(--blanco);
-    border-radius: 4px;
-    box-shadow: 0 1px 2px #464646;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px #949494;
 }
 
 
 .derechos{
+
     padding: 2rem 0;
     text-align: center;
     color: var(--preto);
+}
+.derechos h4{
+    font-size: 1rem;
 }
 
 
@@ -203,7 +218,7 @@ label{
 
 @media (max-width: 430px) {
     .btn-primary{
-        font-size: 0.825rem;
+        font-size: 1rem;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
@@ -255,5 +270,15 @@ label{
     }
 }
 
-
-
+.todos-productos{
+    background-color: var(--preto05);
+    padding: 4rem 0;
+}
+.codigo{
+    color:var(--preto);
+    font-weight: normal;
+}
+.producto-img{
+    margin-bottom: 0.5rem;
+    border-radius: 0.2rem;
+}
